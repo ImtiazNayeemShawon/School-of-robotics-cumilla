@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+     min-height: 15vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #653ff5;
+    
+    color: #636993;
+  }
+  
+  nav .logo {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: #f4f5f8;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 45%;
+    text-transform: uppercase;
+  }
+  #link{
+    color: #ffffff;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+  }
+  #link:hover{
+   color: #ff2d80;
+    
+  }
+  nav .nav-links a {
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+ nav{
+   box-sizing: border-box;
+   box-shadow: #f1f1f5 5px 2px;
+ }
+  nav .burger {
+    font-size: 28px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media all and (max-width: 768px) {
+    nav .burger {
+      display: block;
+    }
+    nav .nav-links {
+      border-radius: 10px;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      background-color:  #122e6a;
+      height: 100vh;
+      padding: 40px;
+      width: 50%;
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      z-index: 9999;
+    }
+    nav .nav-links li {
+      padding: 25px;
+      border-bottom: 2px solid #fff9f9;
+    }
+    nav .nav-links li:last-of-type {
+      border-bottom: 0px solid #ccc;
+    }
+  
+  }
