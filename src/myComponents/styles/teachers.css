@@ -44,3 +44,19 @@ border-radius: 40px;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 30px;
 }
+.Details{
+    box-sizing: border-box;
+    width: max-content;
+    margin: 10px;
+    padding: 10px;
+}
+.Details h5{
+    text-align: left;
+    font-family: sans-serif;  
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.Details h5 b{
+    text-transform: capitalize;
+    font-size: 20px;
+}

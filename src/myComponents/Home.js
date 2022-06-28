@@ -51,7 +51,7 @@ export default function Home(){
                  <img id="banner-1" src={Banner1} alt="banner" />
             </Grid>
     </Grid>
-    <h1 id="why-choose" >কেন কালেক্টরেট স্কুল অফ রোবটিক্স কুমিল্লা থেকে শিখবেন?</h1>
+    <h1 id="why-choose" >কেন  স্কুল অফ রোবটিক্স কুমিল্লা থেকে শিখবেন?</h1>
     <Grid className="res" container spacing={3}>
      
         <Grid id="reason" item md={4}>
