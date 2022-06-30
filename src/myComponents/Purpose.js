@@ -2,7 +2,7 @@ import React from 'react'
 
 function Purpose() {
   return (
-    <div>Purpose</div>
+    <div>Work is in progress on this page</div>
   )
 }
 

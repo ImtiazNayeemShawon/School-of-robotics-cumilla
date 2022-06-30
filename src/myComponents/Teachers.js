@@ -1,14 +1,8 @@
-import React from 'react';
-import DC from './Teachers components/DC';
-import "./styles/Teachers.css";
+import React from 'react'
+
 function Teachers() {
   return (
-<div className='TeachersList'>
-
-               <DC/>
-              
-          
-</div>
+    <div>Work is in progress on this page</div>
   )
 }
 

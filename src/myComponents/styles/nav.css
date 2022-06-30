@@ -38,20 +38,24 @@
    padding-right: 5%;
    border-radius: 2%;
   }
-  #Dp li{
-    display: flex;
-  }
+  #Dp1{
+    color: #ffffff;
+     position:absolute ;
+     margin-top: 2%;
+     margin-left: 45%;
+     background-color: #ff29db;
+     padding: 1%;
+     padding-left: 2%;
+     padding-right: 2%;
+     border-radius: 2%;
+    }
 #Dp img{
   width: 5%;
   height: 5%;
 }
   nav .logo {
-    font-size: 22px;
-    font-weight: 900;
-    text-transform: uppercase;
-    background-color: #f4f5f8;
-    padding: 10px;
-    border-radius: 20px;
+  width: 20%;
+  height: 20%;
   }
   
   nav .nav-links {
@@ -97,7 +101,7 @@
       display: block;
       top: 0;
       left: 0;
-      background-color:  #122e6a;
+      background-color:  #653ff5;
       height: 100vh;
       padding: 40px;
       width: 50%;
@@ -114,5 +118,16 @@
     nav .nav-links li:last-of-type {
       border-bottom: 0px solid #ccc;
     }
-  
+   
+    #Dp1{
+      margin-top: 0%;
+      margin-left: 10%;
+      margin-right: 0%;
+      background-color: #482ab6
+    }
+    nav .logo {
+      width: 50%;
+      height: 50%;
+      }
+    
   }

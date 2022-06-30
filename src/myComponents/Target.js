@@ -2,7 +2,7 @@ import React from 'react'
 
 function Target() {
   return (
-    <div>Target</div>
+    <div>Work is in progress on this page</div>
   )
 }
 

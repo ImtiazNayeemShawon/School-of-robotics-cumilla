@@ -1,0 +1,29 @@
+.background{
+    background-color:  #653ff5;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+.Text-1,.Text-2{
+        color: #653ff5;
+        background-color: #fffef5;
+        padding: 10px;
+        margin-top: 1%;
+        font-size: larger;
+        border-radius: 10px;
+        line-height: 40px;
+        text-align: center;
+        
+    }
+    .Text-1,.Text-2,.Text-3,.Text-4{
+        border-right: #faaf0e 3px solid;
+    }
+    .Text-5,.Text-6,.Text-7{
+        border-left: #faaf0e 3px solid;
+    
+    }
+    #Initiation-text{
+        font-size: 80px;
+        text-align: center;
+        color: #8dff0b;
+        border-bottom:  solid 2px #f7f5ff;
+    }

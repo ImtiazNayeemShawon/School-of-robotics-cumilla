@@ -2,7 +2,7 @@ import React from 'react'
 
 function Course() {
   return (
-    <div>Course</div>
+    <div>Work is in progress on this page</div>
   )
 }
 
