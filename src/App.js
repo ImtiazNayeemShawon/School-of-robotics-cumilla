@@ -9,7 +9,6 @@ import Target from './myComponents/Target';
 import Purpose from './myComponents/Purpose';
 import Background from './myComponents/Background';
 import Routine from './myComponents/Routine';
-import Prospectus from './myComponents/Prospectus';
 import Syllabus from './myComponents/Syllabus';
 import Footer from './myComponents/Footer';
 function App() {
@@ -28,7 +27,6 @@ function App() {
                   <Route path="/background" element={<Background />} />
                   <Route path="/target" element={<Target />} />
                   <Route path="/routine" element={<Routine />} />
-                  <Route path="/propectus" element={<Prospectus />} />
                   <Route path="/syllabus" element={<Syllabus />} />
            </Routes>
    <Footer/>

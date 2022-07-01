@@ -24,11 +24,7 @@ function Navbar() {
               </li>
               <li>
               
-              <Link  id='link' to="target">লক্ষ্য</Link>
-              </li>
-              <li>
-            
-              <Link  id='link' to="purpose">উদ্দেশ্য</Link>
+              <Link  id='link' to="target">লক্ষ্য ও উদ্দেশ্য</Link>
               </li>
               <li>
                 <Link id='link' to="teachers">শিক্ষকগণ</Link>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Teachers() {
   return (
-    <div>Work is in progress on this page</div>
+    <div id='target'>Work is in progress on this page</div>
   )
 }
 
