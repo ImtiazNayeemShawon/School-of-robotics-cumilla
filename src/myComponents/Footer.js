@@ -43,7 +43,7 @@ function Footer() {
                     <li> <LinkedIn/> <span>LinkedIn</span> </li>
                     <li> <YouTube/> <span>YouTube</span> </li>
                   </ul>
-                  <p id="Imtiaz">Copyright © 2022 ||School of Robotics </p>
+                  <a href="https://www.facebook.com/imtinayeem/">Copyright © 2022 ||Imtiaz nayeem Shawon </a>
                 </div>
             </Grid>
             
